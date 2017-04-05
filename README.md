@@ -35,6 +35,8 @@ func main() {
 
 # Screenshots
 > example.exe
+
 ![normal](https://github.com/Baozisoftware/GoldenDaemon/blob/master/example/screenshots/normal.png)
 > example.exe -d
+
 ![restarted](https://github.com/Baozisoftware/GoldenDaemon/blob/master/example/screenshots/restarted.png)
