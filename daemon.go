@@ -14,7 +14,8 @@ func parseArgs(key string) (b bool) {
 	for i, v := range args {
 		if v == "-"+key || v == "-"+key+"=true" {
 			b = true
-			args[i] = "-" + key + "=false"
+			args = append(args[0:i], args[i+1:]...)
+			break
 		}
 	}
 	return
