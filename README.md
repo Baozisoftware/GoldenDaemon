@@ -1,2 +1,2 @@
 # GoldenDaemon
-Run golang app as background program, 
+Run golang app as background program.
